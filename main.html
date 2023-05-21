@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="heading">Registration Form</div>
+    <div id="reg-form">
+      <form action=" " method=" " id="regform" class="input-fields">
+        <label for="firstname">First Name:</label>
+        <input
+          type="text"
+          id="firstname"
+          class="input"
+          name="firstname"
+          placeholder="KARTHIK"
+          required
+        />
+
+        <label for="lastname"> Last Name:</label>
+        <input
+          type="text"
+          id="lastname"
+          class="input"
+          name="lastname"
+          placeholder="MR"
+          required
+        />
+        <br />
+        <ul>
+          <l1> </l1>
+        </ul>
+
+        <label for="gender-male">Male</label>
+        <input
+          type="radio"
+          id="gender"
+          class="input"
+          name="gender-choice"
+          value="Male"
+        />
+
+        <label for="gender-female">Female</label>
+        <input
+          type="radio"
+          id="gender"
+          class="input"
+          name="gender-choice"
+          value="Female"
+        />
+
+        <label for="gender-other">Other</label>
+        <input
+          type="radio"
+          id="gender"
+          class="input"
+          name="gender-choice"
+          value="Other"
+        />
+
+        <br />
+        <ul>
+          <l1> </l1>
+        </ul>
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="input"
+          placeholder="xyz@gmail.com"
+          required
+        />
+        <br />
+        <ul>
+          <l1> </l1>
+        </ul>
+
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          class="input"
+          name="password"
+          required
+        /><br />
+        <ul>
+          <l1> </l1>
+        </ul>
+
+        <label for="dob"
+          >Date of Birth <br />
+          <input
+            type="date"
+            min="17"
+            max="21"
+            class="input"
+            id="dob"
+            required
+          />
+        </label>
+        <br />
+        <ul>
+          <l1> </l1>
+        </ul>
+
+        <label for="course"></label>
+        <select type="course" id="course" class="input">
+          <option value="0" selected disabled>course</option>
+          <option value="Automobile engg.">Automobile engg.</option>
+          <option value="Aeronautical engg.">Aeronautical engg.</option>
+          <option value="Marine engg.">Marine engg.</option>
+
+          <option value="Mechanical engg.">Mechanical engg.</option>
+          <option value="Mechanical with specialization in  Automotive engg.">
+            Mechanical with specialization in Automotive engg.
+          </option>
+          <option
+            value="Mechanical with specialization in Electric vehicles engg."
+          >
+            Mechanical with specialization in Electric vehicles engg.
+          </option>
+          <option
+            value="Mechanical with specialization in Artificial Inteligence engg."
+          >
+            Mechanical with specialization in Artificial Inteligence engg.
+          </option>
+          <option
+            value="Mechanical with specialization in Machine Learning engg."
+          >
+            Mechanical with specialization in Machine Learning engg.
+          </option>
+
+          <option value="Electrical engg.">Electrical engg.</option>
+          <option value="Electrical with specialization in IOT engg.">
+            Electrical with specialization in IOT engg.
+          </option>
+          <option
+            value="Electrical with specialization in Electric vehicles engg."
+          >
+            Electrical with specialization in Electric vehicles engg.
+          </option>
+          <option
+            value="Electrical with specialization in Artificial Inteligence engg."
+          >
+            Electrical with specialization in Artificial Inteligence engg.
+          </option>
+          <option
+            value="Electrical with specialization in Machine Learning engg."
+          >
+            Electrical with specialization in Machine Learning engg.
+          </option>
+          <option value="Electrical and Electronics engg.">
+            Electrical and Electronics engg.
+          </option>
+          <option value="Electrical and Computer engg.">
+            Electrical and Computer engg.
+          </option>
+          <option value="Electrical and Communication engg.">
+            Electrical and Communication engg.
+          </option>
+          <option value="Electronics engg.">Electronics engg.</option>
+          <option value="Electronics with specialization in IOT engg.">
+            Electronics with specialization in IOT engg.
+          </option>
+          <option
+            value="Electronics with specialization in Electric vehicles engg."
+          >
+            Electronics with specialization in Electric vehicles engg.
+          </option>
+          <option
+            value="Electronics with specialization in Artificial Inteligence engg."
+          >
+            Electronics with specialization in Artificial Inteligence engg.
+          </option>
+          <option
+            value="Electronics with specialization in Machine Learning engg."
+          >
+            Electronics with specialization in Machine Learning engg.
+          </option>
+          <option value="Computer science engg.">Computer science engg.</option>
+          <option value="Computer science with specialization in IOT engg.">
+            Computer science with specialization in IOT engg.
+          </option>
+          <option
+            value="Computer science with specialization in Datascience engg."
+          >
+            Computer science with specialization in Datascience engg.
+          </option>
+          <option
+            value="Computer science with specialization in Blockchain engg."
+          >
+            Computer science with specialization in Blockchain engg.
+          </option>
+          <option
+            value="Computer science with specialization in Artificial Inteligence engg."
+          >
+            Computer science with specialization in Artificial Inteligence engg.
+          </option>
+          <option
+            value="Computer science with specialization in Machine Learning engg."
+          >
+            Computer science with specialization in Machine Learning engg.
+          </option>
+          <option
+            value="Computer science with specialization in Business Systems engg."
+          >
+            Computer science with specialization in Business Systems engg.
+          </option>
+        </select>
+
+        <br />
+        <ul>
+          <l1> </l1>
+        </ul>
+
+        <label for="agree"
+          >All the information mentioned above are true to my knowledge:
+        </label>
+        <input type="checkbox" name="agree" id="agree" required /><br />
+        <ul>
+          <l1> </l1>
+        </ul>
+
+        <button type="submit" id="button">SUBMIT</button>
+      </form>
+    </div>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
