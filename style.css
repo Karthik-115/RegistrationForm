@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./images/bgd_img.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+  font-family: Poppins;
+}
+
+.heading {
+  margin-top: 2%;
+  background-color: rgba(11, 10, 10, 0.7);
+  color: rgb(249, 248, 250);
+  width: 50%;
+  padding: 3% 0% 3% 0%;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#reg-form {
+  padding-top: 1.5%;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 3%;
+  padding-bottom: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  font-size: 17px;
+}
+
+#form label input {
+  height: 20px;
+  font-size: 15px;
+  border: none;
+}
+
+#button {
+  width: 100%;
+
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 18px;
+  font-weight: 800;
+  border: 2px solid white;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: rgb(107, 155, 234);
+  transition: 0.4s;
+  border-color: black;
+}
